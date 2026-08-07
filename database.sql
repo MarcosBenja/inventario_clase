@@ -79,3 +79,7 @@ INSERT INTO productos (codigo, nombre, descripcion, id_categoria, existencia_act
 ('PAP-002', 'Lapiceros azules', 'Caja de lapiceros azules x12', 2, 3, 5, 1),
 ('LIMP-001', 'Desinfectante', 'Desinfectante multiusos 1 litro', 3, 8, 2, 1),
 ('HERR-001', 'Destornilladores', 'Set de destornilladores Phillips', 4, 4, 3, 1);
+
+INSERT INTO usuarios (nombre_completo, usuario, email, password, rol, estado) VALUES
+('Marcos Benjamin Morazan Rivas', 'MARCOS', 'marcos@inventario.com', '$2y$10$uo0oMXc6NGNKXkd0smgLVubLpvkS9YYLxlhI2QDtT7cIEK13aesWm', 'admin', 1),
+('Operador Sistema', 'OPERADOR', 'operador@inventario.com', '$2y$10$uo0oMXc6NGNKXkd0smgLVubLpvkS9YYLxlhI2QDtT7cIEK13aesWm', 'operador', 1);

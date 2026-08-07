@@ -66,21 +66,16 @@ inventario/
 2. Hacer clic en **Nueva** (panel izquierdo).
 3. Escribir el nombre: **`inventario_db`** y hacer clic en **Crear**.
 4. Con la base de datos seleccionada, ir a la pestaña **Importar**.
-5. Hacer clic en **Elegir archivo** y seleccionar `database.sql`.
-6. Hacer clic en **Continuar**.
+5. Hacer clic en **Elegir archivo** y seleccionar `database.sql` (ubicado dentro de la carpeta del proyecto).
+6. Hacer clic en **Continuar** o **Importar** al final de la página.
+*(Esto creará las tablas de la base de datos, ingresará categorías, productos de muestra y los usuarios por defecto automáticamente).*
 
-### Paso 4 — Crear los Usuarios del Sistema
+### Paso 4 — Acceder al Sistema
 1. Abrir en el navegador:
    ```
-   http://localhost/inventario/setup.php
+   http://localhost/inventario/
    ```
-2. Verificar que aparezca el mensaje de éxito con las credenciales.
-3. **Eliminar el archivo `setup.php`** después de ejecutarlo (por seguridad).
-
-### Paso 5 — Acceder al Sistema
-```
-http://localhost/inventario/
-```
+2. Ingresar con cualquiera de las credenciales de acceso detalladas más abajo.
 
 ---
 
